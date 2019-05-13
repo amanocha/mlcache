@@ -1,0 +1,7 @@
+.DS_Store
+data/
+output/
+results/
+Spearmint/
+*.pyc
+__pycache__
