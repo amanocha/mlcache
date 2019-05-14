@@ -7,11 +7,11 @@ Note: This project uses both Python 2.7 and Python 3.6. The alias "python" runs 
 
 The datasets for this project were memory traces of programs. The data used in this project consisted of memory traces of two programs:
 1. Graph Projections - a graph algorithm that takes a bipartite graph as input and relates nodes in one partition based on neighbors they share in the other partition
-    - This algorithm was run on data gathered on crime in Moreno Valley: (http://konect.uni-koblenz.de/downloads/tsv/moreno_crime.tar.bz2)[http://konect.uni-koblenz.de/downloads/tsv/moreno_crime.tar.bz2]
-    - For more information on this algorithm, visit (https://en.wikipedia.org/wiki/Bipartite_network_projection)[https://en.wikipedia.org/wiki/Bipartite_network_projection].
+    - This algorithm was run on data gathered on crime in Moreno Valley: http://konect.uni-koblenz.de/downloads/tsv/moreno_crime.tar.bz2.
+    - For more information on this algorithm, visit https://en.wikipedia.org/wiki/Bipartite_network_projection.
 2. Random Pointer Chase - a benchmark program that involves many random memory accesses and pointer chasing
 
-To obtain this data, visit (https://drive.google.com/drive/folders/1bLXzAv1Vel5uU0ZLOWg82WfILrnvkUAb?usp=sharing)[https://drive.google.com/drive/folders/1bLXzAv1Vel5uU0ZLOWg82WfILrnvkUAb?usp=sharing].
+To obtain this data, visit https://drive.google.com/drive/folders/1bLXzAv1Vel5uU0ZLOWg82WfILrnvkUAb?usp=sharing.
 ## Preprocessing The Data
 
 The original data format for this project is a memory trace of a program that contains (at the least) the memory access addresses and the program counters. Additional information such as the instruction type could be added to the data. Since there are not many features in the feature space, the data needs to be preprocessed in order to create a more informative feature space. There are three modes of doing so:
