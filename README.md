@@ -1,9 +1,9 @@
 # COS 424 Final Project: Applying Online and Reinforcement Learning Techniques to Improve Cache Performance
-Aninda Manocha
+### Aninda Manocha
+
+*Note*: This project uses both Python 2.7 and Python 3.6. The alias "python" runs Python 2.7, so if your "python" alias runs Python 3.5, then you need to ensure you are using Python 2.7 where the command below is running with the "python" alias.
 
 -----
-
-Note: This project uses both Python 2.7 and Python 3.6. The alias "python" runs Python 2.7, so if your "python" alias runs Python 3.5, then you need to ensure you are using Python 2.7 where the command below is running with the "python" alias.
 
 ## Gathering the Data
 
